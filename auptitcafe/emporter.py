@@ -62,4 +62,3 @@ class Emporter:
                 writer.writerow(['titre_plat', 'prix', 'category', 'recette', 'image_url'])
             for plat in plats:
                 writer.writerow([plat.title, str(plat.price), plat.cat, plat.details, plat.img_url])
-    
